@@ -34,7 +34,7 @@
   ],
   "scripts": {
     "build": "webpack",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --branches main",
     "commit": "git add . && git-cz"
   },
   "publishConfig": {
